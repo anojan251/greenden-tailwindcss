@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>Contact us</title>
+</head>
+
+<body>
+    <!-- Responsive NAVBAR -->
+    <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-50">
+        <h1 class="text-2xl">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="gap-6  text-gray-600 hidden md:flex">
+            <li class="hover:underline hover:text-black"><a href="./index.html">Home</a></li>
+            <li class="hover:underline hover:text-black"> <a href="./products.html">Product</a></li>
+            <li class="hover:underline hover:text-black"><a href="./contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <!-- contact form -->
+    <div class="flex flex-col items-center">
+        <h1 class="m-6 font-extrabold text-3xl">Contact Form</h1>
+        <form class="shadow-2xl shadow-green-800 md:w-2/4">
+           <div class="flex flex-col bg-green-800 p-5 rounded-lg gap-3 text-white">
+                
+                     <label for="full name">Full Name:</label>
+                
+                    <input type="text" class="border rounded-lg shadow-lg p-2 outline-none text-green-700 font-semibold" placeholder="George" >
+                    
+                
+                
+                    <label for="Email">Email Address:</label>
+                
+            
+                    <input type="email" name="" id="" class="border rounded-lg shadow-lg p-2 outline-none text-green-700 font-semibold" placeholder="name@email.com">
+                
+                
+                    <label for="number">Mobile No.</label>
+                
+                    <input type="tel" name="" id="" class="border rounded-lg shadow-lg p-2 outline-none text-green-700 font-semibold" placeholder="07758625412">
+                
+                
+                    <label for="">Message:</label>
+                
+                
+                    <textarea name="" id="" cols="30" rows="5" class="border rounded-lg shadow-lg p-2 outline-none text-green-700 font-semibold" placeholder="Your message"></textarea>
+                
+            <div class="flex justify-center"><button type="submit" class="bg-yellow-500 p-2 rounded font-semibold text-black w-1/4">Sumbit</button></div>
+                    
+                
+                </div>
+        </form>
+    </div>
+
+    <!-- Footer section -->
+    <section class="bg-green-100 mt-3">
+        <h1 class="font-bold text-4xl p-5">Greenden</h1>
+        <p class="pl-5 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum porro cum officia
+            blanditiis eveniet at.</p>
+        <p class="pl-5 pb-5">&#169; Greenday.com</p>
+    </section>
+</body>
+
+</html>
