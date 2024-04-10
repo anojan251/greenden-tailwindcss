@@ -9,12 +9,12 @@
     <title>Greenden</title>
 </head>
 
-<body>
+<body class="relative">
     <!-- Responsive NAVBAR -->
-    <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-50">
+    <nav class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-40">
         <h1 class="text-2xl">GREENDEN</h1>
 
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        <svg id="humburger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
             class="w-6 h-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
@@ -25,6 +25,15 @@
             <li class="hover:underline hover:text-black"><a href="./contact.html">Contact us</a></li>
         </ul>
     </nav>
+     <!-- side Nav bar -->
+    <section id="sidenavbar" class="top-0 z-50 fixed flex justify-end h-full -right-96 transform transition-all duration-1000 shadow-xl ">
+        <ul class=" text-gray-600 bg-green-100 flex-col text-center w-80 ">
+            <p id="colseBtn" class="flex justify-end p-4 ">X</p>
+            <li class="hover:underline hover:text-black my-9"><a href="./index.html">Home</a></li>
+            <li class="hover:underline hover:text-black my-9"> <a href="./products.html">Product</a></li>
+            <li class="hover:underline hover:text-black"><a href="./contact.html">Contact us</a></li>
+        </ul>
+    </section>
     <!-- Header Section -->
     <section class="flex justify-center bg-green-100 p-4">
         <div>
@@ -82,7 +91,7 @@
                 <p>£19.99</p>
 
             </div>
-            <div class="my-5">
+            <div class="m-5">
                 <img src="./images/Untitled design/2.png" alt="" class="inline transform hover:-translate-y-2">
                 <p>Rose Plant</p>
                 <p>£19.99</p>
@@ -208,6 +217,7 @@
             blanditiis eveniet at.</p>
         <p class="pl-5 pb-5">&#169; Greenday.com</p>
     </section>
+    <script src="index.js"></script>
 </body>
 
 </html>
